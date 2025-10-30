@@ -1,0 +1,27 @@
+# Anchor build outputs
+target
+test-ledger
+
+# Local environment
+.wallet.json
+**/*wallet.json
+
+# Node.js dependencies
+node_modules
+.yarn
+
+# Editor / system files
+.DS_Store
+
+# Backup Rust files
+**/*.rs.bk
+
+# Surfpool / Anchor generated configs
+.surfpool
+.anchor
+
+# Logs
+*.log
+
+# Temporary files
+.tmp
